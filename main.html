@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/css/style.css"> 
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js"></script>  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StudyOS</title>
 </head>
 <body>
-<section class="sidebar">
-    <h1>StudyOS</h1>
-    <p>Your Learning Space.</p>
-    <button class="learning">Start learning</button> <br>
-    <button class="left">Dashboard</button>
-    <button class="right">Learn more</button>
-</section>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <h1 class="sidenav-heading">StudyOS</h1>
+  <h5 class="sidenav-text">Your Learning Space</h5>
+</div>
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;<h1 class="main-heading">Welcome to StudyOS</h1></span>
+</div>
+
 </body>
 </html>
